@@ -103,9 +103,14 @@ this get the location and save it in a list. So, we can easily get it by using:
  
       String api = "https://cloud.boltiot.com/remote/<API KEY>/"serialWrite?data="+value+"&deviceName=<Boltid>";
  
- Also, if your device is using Marshallow or upgraded version, you need to give permissions by going into permission setting in your device.
- 
- You can also ping on this api to through browser to check if it is working perfectly. 
+ Some Instructions:
+        *if your device is using Marshallow or upgraded version, you need to give permissions by going into permission                  setting in your device.
+        *Change the cloud url according to your id and api key.
+        *This code is to sent 3 values, two for particular location and third value for rest of the locations.
+        *You can also ping on this url through browser to check if it is working perfectly.
+        *First you need to run your app to get your exact latitude and longitude location.
+        
+ . 
  
  ![alt tag](https://github.com/Deepanshu625/Location_Alert/blob/master/Screenshot_2018-01-18-20-28-16-036.jpeg "If everything works fine your app will look like this")
 
