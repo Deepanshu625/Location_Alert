@@ -105,7 +105,7 @@ this get the location and save it in a list. So, we can easily get it by using:
  
  Some Instructions:
  
-        *if your device is using Marshallow or upgraded version, you need to give permissions by going into permission                  setting in your device.
+        *if your device is using Marshallow or upgraded version, you need to give permissions by going into permission  setting in your device.
         *Change the cloud url according to your id and api key.
         *This code is to sent 3 values, two for particular location and third value for rest of the locations.
         *You can also ping on this url through browser to check if it is working perfectly.
